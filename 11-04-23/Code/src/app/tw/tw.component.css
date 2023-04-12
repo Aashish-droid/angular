@@ -1,0 +1,19 @@
+.som{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.tw {
+    height: 50px;
+    width: 50px;
+    margin-top: -120px; 
+  }
+  
+.Twitter{
+    margin-top: -25px;
+    padding: 20px;
+    color: aliceblue;
+}
+

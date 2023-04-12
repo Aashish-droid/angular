@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Registration Form</title>
+    <link rel="stylesheet" href="ex1.css" />
+</head>
+<body>
+    <script src="ex1.js"></script>
+    <button id="mybutton" onclick="showForm()">Click here to register...</button>
+    
+
+    <div class="form_container">
+        <form id="myForm" style="display:none" ;>
+            <span onclick="hideForm()">&times;</span>
+            <h1>Registration Form</h1><br />
+
+            <div class="name">
+                <label for="first-name">First name:</label><br /><br />
+                <input type="text" id="first-name" name="first-name">
+            </div>
+
+            <div class="name">
+                <label for="last-name">Last name:</label><br /><br />
+                <input type="text" id="last-name" name="last-name">
+            </div>
+
+            <br /><br />
+
+            <div class="line1">
+                <label for="city">City:</label><br /><br />
+                <input type="text" id="city" name="city">
+            </div>
+
+            <div class="line1">
+                <label for="age">Age:</label><br /><br />
+                <input type="number" id="age" name="age">
+            </div>
+
+            <br /><br />
+
+            <div class="line2">
+                <label for="experience">Experience:</label><br /><br />
+                <input type="number" id="experience" name="experience">
+            </div>
+
+            <div class="line2">
+                <label for="dob">Date of birth:</label><br /><br />
+                <input type="date" id="dob" name="dob">
+            </div>
+
+            <br /><br />
+
+            <label for="gender">Gender:</label>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+            </div>
+            <div class="gender">
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="gender">
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <br /><br />
+
+            <label for="skills">Skills:</label>
+            <div class="skills">
+                <input type="checkbox" id="c++" name="skills[]" value="c++">
+                <label for="c++">C++</label><br>
+            </div>
+            <div class="skills">
+                <input type="checkbox" id="java" name="skills[]" value="java">
+                <label for="java">Java</label><br>
+            </div>
+            <div class="skills">
+                <input type="checkbox" id="python" name="skills[]" value="python">
+                <label for="python">Python</label><br>
+            </div>
+
+            <br /><br />
+
+            <label for="about-you">About you:</label><br><br>
+            <textarea id="about-you" name="about-you" rows="5" cols="40"></textarea><br><br><br />
+
+            <div class="submit-container">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

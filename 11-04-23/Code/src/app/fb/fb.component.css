@@ -1,0 +1,19 @@
+.Facebook {
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 40%;
+    top: 85%;
+    bottom: 5%;
+    right: 40%
+}
+.fb{
+    padding: 3px;
+    position: absolute;
+    top: 89%;
+    right: 60%;
+    height: 45px;
+    width: 45px;
+}
+
