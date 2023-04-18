@@ -1,0 +1,21 @@
+
+.titlebar{
+    background-color: #48d673;
+}
+span{
+    font-size: larger;
+    font-weight:bold;
+    color: white;
+}
+.titlename{
+    width:100%;
+    display:flex;
+    margin-left: 39%;
+}
+button{
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+

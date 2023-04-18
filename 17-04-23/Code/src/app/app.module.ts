@@ -3,22 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Body1Component } from './body1/body1.component';
-import { Body2Component } from './body2/body2.component';
-import { FooterComponent } from './footer/footer.component';
-import { ProductComponent } from './product/product.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
+import { MenuBarComponent } from './common/menu-bar/menu-bar.component';
+import { LastpageComponent } from './pages/lastpage/lastpage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Body1Component,
-    Body2Component,
-    FooterComponent,
-    ProductComponent
+    MenuBarComponent,
+    LastpageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

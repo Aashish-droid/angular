@@ -1,0 +1,57 @@
+<h1 mat-dialog-title>Enter your details</h1>
+<div mat-dialog-content>
+
+    <mat-form-field>
+      <input matInput placeholder="Firstname">
+      <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field><br>
+
+    <mat-form-field>
+      <input matInput placeholder="Lastname">
+      <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field><br>
+
+    <mat-form-field>
+      <mat-label>Education</mat-label>
+      <mat-icon matSuffix>school</mat-icon>
+      <mat-select>
+        <mat-option value="one">B.E</mat-option>
+        <mat-option value="two">B.Tech</mat-option>
+      </mat-select>
+    </mat-form-field><br>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Choose a date</mat-label>
+      <input matInput [min]="minDate" [max]="maxDate" [matDatepicker]="picker">
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Close</button>
+</div>
+<!-- 
+<mat-form-field appearance="fill">
+  <mat-label>First name</mat-label>
+  <input matInput>
+</mat-form-field>
+
+
+<mat-form-field appearance="fill">
+  <mat-label>Education</mat-label>
+  <mat-select>
+    <mat-option value="one">B.E</mat-option>
+    <mat-option value="two">B.Tech</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field class="example-full-width" appearance="fill">
+  <mat-label>Choose a date</mat-label>
+  <input matInput [min]="minDate" [max]="maxDate" [matDatepicker]="picker">
+  <mat-hint>MM/DD/YYYY</mat-hint>
+  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+ -->
