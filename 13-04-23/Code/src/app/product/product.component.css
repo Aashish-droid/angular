@@ -1,0 +1,19 @@
+img{
+    height: 70px;
+    width: 70px;
+}
+.product{
+    height:210px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px;
+    float: left;
+    
+}
+p{
+    width: 175px;
+    margin-top: -10px;
+}
